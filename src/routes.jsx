@@ -42,7 +42,7 @@ export const routes = [
   },
   {
     exact: 'true',
-    path: '/auth/signin-1',
+    path: '/auth/signin',
     element: lazy(() => import('./views/auth/signin/SignIn1'))
   },
   {

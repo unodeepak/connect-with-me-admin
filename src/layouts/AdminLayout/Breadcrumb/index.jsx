@@ -29,6 +29,8 @@ const Breadcrumb = () => {
         if (collapse.type === 'collapse') {
           getCollapse(collapse);
         } else if (collapse.type && collapse.type === 'item') {
+          console.log('Pathname: ', location.pathname);
+          console.log('Pathname1: ', location.pathname === import.meta.env.VITE_APP_BASE_NAME + collapse.url);
           if (location.pathname === import.meta.env.VITE_APP_BASE_NAME + collapse.url) {
             setMain(item);
             setItem(collapse);
@@ -52,6 +54,7 @@ const Breadcrumb = () => {
   }
 
   if (item && item.type === 'item') {
+    console.log({ item, main, main1: main.type });
     title = item.title;
     itemContent = (
       <ListGroup.Item as="li" bsPrefix=" " className="breadcrumb-item">

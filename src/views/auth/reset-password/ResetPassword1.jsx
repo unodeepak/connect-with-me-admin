@@ -28,12 +28,12 @@ const ResetPassword1 = () => {
                     <input type="email" className="form-control" placeholder="Email address" />
                   </div>
                   <button className="btn btn-block btn-primary mb-4">Reset password</button>
-                  <p className="mb-0 text-muted">
+                  {/* <p className="mb-0 text-muted">
                     Don’t have an account?{' '}
                     <NavLink to="/auth/signup-1" className="f-w-400">
                       Signup
                     </NavLink>
-                  </p>
+                  </p> */}
                 </Card.Body>
               </Col>
             </Row>

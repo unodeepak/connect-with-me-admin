@@ -14,32 +14,50 @@ const menuItems = {
           url: '/app/dashboard/analytics'
         },
         {
-          id: 'sign in',
-          title: 'Login',
+          id: 'users',
+          title: 'Users',
           type: 'item',
-          icon: 'feather icon-lock',
-          url: '/auth/signin-1',
+          icon: 'feather icon-users',
+          url: '/auth/signin',
           target: true,
           breadcrumbs: false
         },
         {
-          id: 'sign Up',
-          title: 'Register',
+          id: 'transaction',
+          title: 'Transaction',
           type: 'item',
-          icon: 'feather icon-log-in',
+          icon: 'feather icon-credit-card',
+          url: '/auth/signin',
+          target: true,
+          breadcrumbs: false
+        },
+        {
+          id: 'projects',
+          title: 'Projects',
+          type: 'item',
+          icon: 'feather icon-briefcase',
+          url: '/auth/signin',
+          target: true,
+          breadcrumbs: false
+        },
+        {
+          id: 'notification',
+          title: 'Notification',
+          type: 'item',
+          icon: 'feather icon-bell',
           url: '/auth/signup-1',
           target: true,
           breadcrumbs: false
         },
         {
-          id: 'reset-pass',
-          title: 'Reset Password',
+          id: 'earning',
+          title: 'Earning',
           type: 'item',
-          icon: 'feather icon-unlock',
-          url: '/auth/reset-password-1',
+          icon: '₹',
+          url: '/auth/signup-1',
           target: true,
           breadcrumbs: false
-        }
+        },
       ]
     },
     // {
