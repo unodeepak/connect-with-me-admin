@@ -4,8 +4,8 @@ import React from 'react';
 import { Row, Col, Breadcrumb, Pagination } from 'react-bootstrap';
 
 // project import
-import ModuleNotification from '../../components/Widgets/Statistic/Notification';
-import Card from '../../components/Card/MainCard';
+import ModuleNotification from '../../components1/Widgets/Statistic/Notification';
+import Card from '../../components1/Card/MainCard';
 
 // ==============================|| BREADCRUMB & PAGINATION ||============================== //
 

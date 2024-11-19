@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import { Row, Col, Badge, Button } from 'react-bootstrap';
 
 // project import
-import ModuleNotification from '../../components/Widgets/Statistic/Notification';
-import Card from '../../components/Card/MainCard';
+import ModuleNotification from '../../components1/Widgets/Statistic/Notification';
+import Card from '../../components1/Card/MainCard';
 
 // ==============================|| BADGES ||============================== //
 

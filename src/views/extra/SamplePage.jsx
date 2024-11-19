@@ -4,7 +4,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 // project import
-import Card from '../../components/Card/MainCard';
+import Card from '../../components1/Card/MainCard';
 
 // ==============================|| SAMPLE PAGE ||============================== //
 

@@ -4,7 +4,7 @@ import React from 'react';
 import { Row, Col, Card, Button, OverlayTrigger, Tooltip, Popover } from 'react-bootstrap';
 
 // project import
-import ModuleNotification from '../../components/Widgets/Statistic/Notification';
+import ModuleNotification from '../../components1/Widgets/Statistic/Notification';
 
 // ==============================|| TOOLTIP & POPOVERS ||============================== //
 

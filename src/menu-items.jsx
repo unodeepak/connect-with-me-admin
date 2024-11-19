@@ -18,48 +18,48 @@ const menuItems = {
           title: 'Users',
           type: 'item',
           icon: 'feather icon-users',
-          url: '/auth/signin',
-          target: true,
-          breadcrumbs: false
+          url: '/user'
+          // target: true,
+          // breadcrumbs: false
         },
         {
           id: 'transaction',
           title: 'Transaction',
           type: 'item',
           icon: 'feather icon-credit-card',
-          url: '/auth/signin',
-          target: true,
-          breadcrumbs: false
+          url: '/auth/signin'
+          // target: true,
+          // breadcrumbs: false
         },
         {
           id: 'projects',
           title: 'Projects',
           type: 'item',
           icon: 'feather icon-briefcase',
-          url: '/auth/signin',
-          target: true,
-          breadcrumbs: false
+          url: '/auth/signin'
+          // target: true,
+          // breadcrumbs: false
         },
         {
           id: 'notification',
           title: 'Notification',
           type: 'item',
           icon: 'feather icon-bell',
-          url: '/auth/signup-1',
-          target: true,
-          breadcrumbs: false
+          url: '/auth/signup-1'
+          // target: true,
+          // breadcrumbs: false
         },
         {
           id: 'earning',
           title: 'Earning',
           type: 'item',
           icon: '₹',
-          url: '/auth/signup-1',
-          target: true,
-          breadcrumbs: false
-        },
+          url: '/auth/signup-1'
+          // target: true,
+          // breadcrumbs: false
+        }
       ]
-    },
+    }
     // {
     //   id: 'utilities',
     //   title: 'Utilities',

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Row, Col, Button, Card, Collapse } from 'react-bootstrap';
 
 // project import
-import ModuleNotification from '../../components/Widgets/Statistic/Notification';
+import ModuleNotification from '../../components1/Widgets/Statistic/Notification';
 
 // ==============================|| COLLAPSE ||============================== //
 

@@ -8,8 +8,8 @@ import Chart from 'react-apexcharts';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 
 // project import
-import OrderCard from '../../components/Widgets/Statistic/OrderCard';
-import SocialCard from '../../components/Widgets/Statistic/SocialCard';
+import OrderCard from '../../components1/Widgets/Statistic/OrderCard';
+import SocialCard from '../../components1/Widgets/Statistic/SocialCard';
 
 import uniqueVisitorChart from './chart/analytics-unique-visitor-chart';
 import customerChart from './chart/analytics-cuatomer-chart';

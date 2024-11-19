@@ -1,3 +1,4 @@
+// export const BASE_URL = ''
 export const BASE_URL = '/app/dashboard/analytics';
 export const BASE_TITLE = ' | Gradient Able Premium React + Admin Template';
 

@@ -2,7 +2,7 @@ import React, { Suspense, Fragment, lazy } from 'react';
 import { Routes, Navigate, Route } from 'react-router-dom';
 
 // project import
-import Loader from './components/Loader/Loader';
+import Loader from './components1/Loader/Loader';
 import AdminLayout from './layouts/AdminLayout';
 
 import { BASE_URL } from './config/constant';
@@ -58,6 +58,11 @@ export const routes = [
         exact: 'true',
         path: '/app/dashboard/analytics',
         element: lazy(() => import('./views/dashboard'))
+      },
+      {
+        exact: 'true',
+        path: '/user',
+        element: lazy(() => import('./views/user/user'))
       },
       {
         exact: 'true',
