@@ -66,6 +66,16 @@ export const routes = [
       },
       {
         exact: 'true',
+        path: '/transaction',
+        element: lazy(() => import('./views/transaction/transaction'))
+      },
+      {
+        exact: 'true',
+        path: '/project',
+        element: lazy(() => import('./views/project/project'))
+      },
+      {
+        exact: 'true',
         path: '/basic/button',
         element: lazy(() => import('./views/ui-elements/BasicButton'))
       },

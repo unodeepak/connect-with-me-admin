@@ -6,7 +6,7 @@ import OrderCard from '../../components1/Widgets/Statistic/OrderCard';
 
 import axiosInstance from 'views/auth/instance/instance';
 
-const User = () => {
+const Project = () => {
   const [topBarUser, setTopBarUser] = useState({});
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
@@ -70,52 +70,75 @@ const User = () => {
     <React.Fragment>
       {/* Order Cards */}
       <Row>
-        <Col md={6} xl={3}>
+        <Col md={6} xl={2}>
           <OrderCard
             params={{
-              title: 'Total Users',
-              class: 'bg-c-blue', // Blue for total users
-              icon: 'feather icon-users', // Users icon
+              title: 'Total',
+              class: 'bg-primary', // Primary blue for total projects
+              icon: 'feather icon-layers', // Layers icon representing all projects
               primaryText: `${topBarUser?.totalUser}`,
               secondaryText: 'This Month',
               extraText: `${topBarUser?.thisMonthTotalUser}`
             }}
           />
         </Col>
-        <Col md={6} xl={3}>
+        <Col md={6} xl={2}>
           <OrderCard
             params={{
-              title: 'Active Users',
-              class: 'bg-c-green', // Green for active users
-              icon: 'feather icon-user-check', // Active user icon
+              title: 'Complete',
+              class: 'bg-success', // Green for completed projects
+              icon: 'feather icon-check-circle', // Check-circle icon for completed projects
+              primaryText: `${topBarUser?.totalUser}`,
+              secondaryText: 'This Month',
+              extraText: `${topBarUser?.thisMonthTotalUser}`
+            }}
+          />
+        </Col>
+        <Col md={6} xl={2}>
+          <OrderCard
+            params={{
+              title: 'In-Progress',
+              class: 'bg-info', // Orange for in-progress projects
+              icon: 'feather icon-clock', // Clock icon for ongoing projects
               primaryText: `${topBarUser?.activeUser}`,
               secondaryText: 'This Month',
               extraText: `${topBarUser?.thisMonthActiveUser}`
             }}
           />
         </Col>
-        <Col md={6} xl={3}>
+        <Col md={6} xl={2}>
           <OrderCard
             params={{
-              title: 'Inactive Users',
-              class: 'bg-secondary', // Red for inactive users
-              icon: 'feather icon-user-x', // Inactive user icon
+              title: 'Approved',
+              class: 'bg-secondary', // Gray for approved projects
+              icon: 'feather icon-thumbs-up', // Thumbs-up icon for approval
               primaryText: `${topBarUser?.inActiveUser}`,
               secondaryText: 'This Month',
               extraText: `${topBarUser?.thisMonthInActiveUser}`
             }}
           />
         </Col>
-        <Col md={6} xl={3}>
+        <Col md={6} xl={2}>
           <OrderCard
             params={{
-              title: 'Unverified Users',
-              class: 'bg-danger', // No external class needed
-              icon: 'feather icon-user', // Generic user icon for unverified users
+              title: 'Pending',
+              class: 'bg-warning', // Yellow for pending projects
+              icon: 'feather icon-alert-circle', // Alert-circle icon for pending
               primaryText: `${topBarUser?.unVerifiedUser}`,
               secondaryText: `This Month`,
               extraText: `${topBarUser?.thisMonthUnVerifiedUser}`
-              // style: { backgroundColor: '#ffc107', color: '#000' } // Yellow background with black text for warning
+            }}
+          />
+        </Col>
+        <Col md={6} xl={2}>
+          <OrderCard
+            params={{
+              title: 'Cancelled',
+              class: 'bg-danger', // Red for cancelled projects
+              icon: 'feather icon-x-circle', // X-circle icon for cancellations
+              primaryText: `${topBarUser?.unVerifiedUser}`,
+              secondaryText: `This Month`,
+              extraText: `${topBarUser?.thisMonthUnVerifiedUser}`
             }}
           />
         </Col>
@@ -185,4 +208,4 @@ const User = () => {
   );
 };
 
-export default User;
+export default Project;

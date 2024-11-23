@@ -27,7 +27,7 @@ const menuItems = {
           title: 'Transaction',
           type: 'item',
           icon: 'feather icon-credit-card',
-          url: '/auth/signin'
+          url: '/transaction'
           // target: true,
           // breadcrumbs: false
         },
@@ -36,9 +36,7 @@ const menuItems = {
           title: 'Projects',
           type: 'item',
           icon: 'feather icon-briefcase',
-          url: '/auth/signin'
-          // target: true,
-          // breadcrumbs: false
+          url: '/project'
         },
         {
           id: 'notification',

@@ -6,7 +6,7 @@ import OrderCard from '../../components1/Widgets/Statistic/OrderCard';
 
 import axiosInstance from 'views/auth/instance/instance';
 
-const User = () => {
+const Transaction = () => {
   const [topBarUser, setTopBarUser] = useState({});
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
@@ -185,4 +185,4 @@ const User = () => {
   );
 };
 
-export default User;
+export default Transaction;
